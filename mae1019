@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Me</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">WHO</a></li>
+              <li><a href="#">WHAT</a></li>
+              <li><a href="#">WHERE</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <title>welcome</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    .bg-1 {
+            background-color: #1a66bc;
+            color: white;
+            text-align: center;
+        }
+        .container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+        body {
+            font: 20px,"Montserrat",sans-serif; 
+            line-height : 1.8;
+            color: #f5f6f7;
+        }
+        p{
+            font-size: 16px;
+        }
+        .margin {
+            margin-bottom: 45px; 
+        }
+   </style>
+</head>
+<body>
+<div class="container-fluid bg-1">
+<h3>Who Am I?</h3>
+<img src="C:\Users\user\Desktop\mae\MIS\bird (2).jpg" alt="bird" height="40%" width="40%" class="img-circle">   
+<h3>I'm an adventurer</h3>
+</div> 
+<div class="container-fluid bg-2">
+    <h3>What am I?</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur magna urna, feugiat non accumsan in, malesuada quis elit. Aenean fermentum purus augue, ut pulvinar odio convallis eget. Curabitur in lorem eros. Pellentesque commodo elit vestibulum enim pharetra viverra. Donec consequat venenatis placerat. Proin turpis urna, dapibus condimentum erat id, facilisis pulvinar dolor. Mauris nibh lectus, sollicitudin sit amet arcu ut, luctus euismod dolor. Suspendisse vitae mauris molestie, sollicitudin ligula sit amet, luctus est. Cras pellentesque rhoncus lacinia. Donec blandit sollicitudin lorem, ut placerat tortor semper non.</p>
+    <a href="https://www.google.com/" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-search"></span>Search</a>
+    <style>
+        .bg-2 {
+            background-color: #203041;
+            color: white;
+            text-align: center;
+        }
+        .container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+    </style>
+</div>
+<div class="container-fluid bg-3">
+    <h3> Where To Find Me?</h3>
+    <div class="row">
+        <div class="col-sm-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <img src="C:\Users\user\Desktop\birds1.jpg" alt="birds1" height="200">
+        </div>
+        <div class="col-sm-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <img src="C:\Users\user\Desktop\birds8.jpg" alt="birds8" height="200">
+        </div>
+        <div class="col-sm-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <img src="C:\Users\user\Desktop\birds9.jpg" alt="birds9" height="200">
+        </div>
+    </div>
+</div>
+
+    <style>
+        .bg-3 {
+            background-color: #ffffff;
+            color: 555555;
+            text-align: center;
+        }
+        .bg-4 {
+            background-color: #2f2f2f;
+            color: #ffffff;
+        }
+        .container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+    </style>
+</div>
+    <footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.google.com">Kim</a></p>
+</footer>
+</body>
+</html>
+
